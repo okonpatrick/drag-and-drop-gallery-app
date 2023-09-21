@@ -25,20 +25,20 @@ const SignIn = ({ updateUserState }) => {
     <div className='sign-in-container'>
       <form>
         <h1>Log in to your Account</h1>
-        <input
+        <input className="input-box"
           type='email'
           placeholder='Enter your email'
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         ></input>
 
-        <input
+        <input className="input-box"
           type='password'
           placeholder='Enter your password'
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         ></input>
-        <button type='submit' onClick={signIn}>
+        <button className="btn-click" type='submit' onClick={signIn}>
           Login
         </button>
       </form>

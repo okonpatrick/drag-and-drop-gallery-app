@@ -5,6 +5,7 @@ import SignIn from './components/auth/SignIn';
 import SignUp from './components/auth/SignUp';
 import AuthDetails from './components/auth/AuthDetails';
 import Gallery from './components/Gallery';
+import Footer from "./components/Footer"
 
 function App() {
   const [user, setUser] = useState(null);
@@ -30,6 +31,7 @@ function App() {
         // Display the AuthDetails component when user is authenticated
         <AuthDetails updateUserState={updateUserState} />
       )}
+      <Footer />
     </div>
   );
 }

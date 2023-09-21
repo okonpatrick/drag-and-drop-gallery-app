@@ -9,10 +9,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-top: 0%;
-  padding-left: 10%;
-  padding-right: 10%; /* Adjust the padding value as needed */
+  padding-left: 7%;
+  padding-right: 7%; /* Adjust the padding value as needed */
 }
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -20,7 +19,7 @@ code {
 }
 
 .h2-tag{
-  color: blue;
+  color: rgb(44, 44, 99);
   font-weight: bolder;
 
 }
@@ -31,14 +30,14 @@ code {
   background-color: #f9f9f9;
   border-radius: 4px;
   height: 33px;
-  width: 70%;
+  width: 60%;
 }
    
   .search {
     border: 1px solid grey;
     border-radius: 5px;
     height: 32px;
-    width: 93%;
+    width: 90%;
     padding: 2px 23px 2px 30px;
     outline: 0;
     background-color: #f5f5f5;
@@ -53,7 +52,6 @@ code {
 .image-display{
   margin-top: 20%;
 }
-
 
 /* Add a black background color to the top navigation bar */
 .topnav {
@@ -110,14 +108,16 @@ code {
   }
 }
 
-.loginsearch {
+.input-box {
   border: 1px solid #ccc;
   padding: 9px;
   background-color: #f9f9f9;
   border-radius: 4px;
-  height: 33px;
-  width: 20%;
-  padding: 2px
+  height: 30px;
+  width: 30%;
+  padding: 2px;
+  margin:2%;
+  font-size: medium;
 
 }
    
@@ -131,34 +131,54 @@ code {
     background-color: #f5f5f5;
   } */
 
-  .loginsearch:hover, .search:focus {
-    border: 1.5px solid #009688;
+  .input-box:hover, .search:focus {
+    border: 1.5px solid #819a98;
     background-color: white;
   }
 
- .loginbutton{
-  width: 20%;
-  height: 60%;
-  button
-  .button {
-  background-color: #149218; /* Green */
-  /* border: none;
+ .btn-click{
+  width: 15%;
+  height: 10%;
+  background-color: #467194; /* Green */
+  border: none;
   color: white;
-  padding: 15px 32px;
+  margin: 7px;
+  padding: 13px 13px;
+  margin-left: 5%;
   text-align: center;
   text-decoration: none;
-  */
-  /* font-size: 16px; */
-  }}
+  font-size: 16px;
+  border-radius: 10%;
 
-
+  }
 
 .sign-in-container{
   text-align: center;
-  padding:10%
+  padding:5%
 }
 
 .sign-up-container{
   text-align: center;
-  padding:1%
+  padding:5%
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20%;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  margin: 1px;
+  padding: 1px;
+}
+
+/* Additional styles for the second paragraph */
+.text-textMinor {
+  text-align: center;
+    font-weight: bold; /* Remove default margin */
+
+  /* Add your styles here */
 }

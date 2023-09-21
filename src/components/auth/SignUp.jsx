@@ -26,7 +26,7 @@ const SignUp = ({ updateUserState }) => {
     <div className='sign-up-container'>
       <form onSubmit={signUp}>
         <h1>Create an Account</h1>
-        <input
+        <input className="input-box"
           type='email'
           placeholder='Enter your email'
           value={email}
@@ -34,12 +34,13 @@ const SignUp = ({ updateUserState }) => {
         ></input>
 
         <input
+        className="input-box"
           type='password'
           placeholder='Enter your password'
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         ></input>
-        <button type='submit'>Sign Up</button>
+        <button class="btn-click" type='submit'>Sign up</button>
       </form>
     </div>
   );
