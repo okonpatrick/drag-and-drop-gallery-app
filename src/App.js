@@ -6,6 +6,8 @@ import SignUp from './components/auth/SignUp';
 import AuthDetails from './components/auth/AuthDetails';
 import Gallery from './components/Gallery';
 import Footer from "./components/Footer"
+import NavBar from './components/NavBar';
+
 
 function App() {
   const [user, setUser] = useState(null);
@@ -17,6 +19,7 @@ function App() {
 
   return (
     <div>
+    <NavBar />
       {user ? (
         // Display the Gallery component when user is authenticated
         <Gallery />

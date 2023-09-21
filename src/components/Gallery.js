@@ -36,14 +36,6 @@ const Gallery = () => {
 
   return (
     <div className='wrapper'>
-    <div class="topnav">
-  <a class="active" href="#home">Home</a>
-  <a href="#about">Services</a>
-    <a href="#contact">Blog</a>
-  <a href="#contact">Contact</a>
-    <a href="#contact">About</a>
-
-    </div>
       <h2 className='h2-tag'>Image Gallery</h2>
       <div className="search-div">
       <input
